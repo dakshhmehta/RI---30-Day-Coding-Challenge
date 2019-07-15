@@ -1,0 +1,19 @@
+{
+    "name": "daksh/phpunit-test",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^8.0",
+        "phpspec/phpspec": "^5.1"
+    },
+    "authors": [
+        {
+            "name": "Daksh Mehta",
+            "email": "daksh@dristal.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
